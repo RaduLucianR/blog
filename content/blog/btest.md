@@ -1,6 +1,5 @@
 title: I like Bears
 link: i-like-bears
-alias: 2012/01/02/cool-post.html
 canonical_url: https://brunescu.com/i-like-bears
 published_date: 2022-12-30
 is_page: false
