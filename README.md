@@ -1,2 +1,2 @@
 # My blog
-Made with Hugo and the BearBlog theme.
+Made with Hugo and the BearBlog theme :D
