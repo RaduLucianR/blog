@@ -1,5 +1,5 @@
 +++
-title = "Markdown Syntax Guide"
+title = "Markdown Syntax Guide1"
 date = "2020-01-04"
 description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 tags = [
