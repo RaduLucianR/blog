@@ -8,7 +8,7 @@ tags = [
 ]
 +++
 
-For a quick cheatsheet, check out https://simplemde.com/markdown-guide.
+For a quick cheatshee, check out https://simplemde.com/markdown-guide.
 
 ---
 
