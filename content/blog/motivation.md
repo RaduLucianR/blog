@@ -1,14 +1,11 @@
 +++
 title = "Motivation"
-date = "2020-01-02"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+date = "2020-05-15"
+description = "Motivation for this blog."
 tags = [
-    "markdown",
-    "syntax",
+    "meta",
 ]
 +++
-
-For a quick cheatsheet, check out https://simplemde.com/markdown-guide.
 
 ---
 
