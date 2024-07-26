@@ -26,10 +26,10 @@ sudo apt install wireshark
 sudo wireshark
 ```
 3. Wireshark's GUI opens up. Select your Ethernet interface by double-clicking on it. In general it is called `eth0`:
-![img](/static/images/sshrpi/selectinterface.png)
+![img](/images/sshrpi/selectinterface.png)
 4. If the Ethernet from the Raspberry is already plugged in then a stream of packets should appear on the screen. Otherwise, plug in the Ethernet cable in your computer.
 5. Look at the stream of packets. One packet of the MDNS protocol should contain a reference to `raspberrypi.local`, like the highlighted one in the screenshot below. The source of that packet is the Raspberry, and we can see its IPv6 or IPv4 address.
-![img](/static/images/sshrpi/sniff.png)
+![img](/images/sshrpi/sniff.png)
 6. In my case, I can see only IPv6 addresses (I don't know why. If somebody knows then please let me know). That is no problem. Copy the IPv6 address.
 7. Open a new terminal and use SSH to connect to the Raspberry. The format of the command for IPv4 is:
 ```
@@ -44,4 +44,4 @@ ssh -6 [user]@[IPv6]%[interface]
 ssh -6 pi@fe80::3db:cf7f:5ee8:4d5b%eth0
 ```
 8. You should be prompted to enter the password, which by default is `raspberry`. Then, you should be in!
-![img](/static/images/sshrpi/connect.png)
+![img](/images/sshrpi/connect.png)
