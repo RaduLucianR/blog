@@ -1,6 +1,6 @@
 +++
 title = "Klein recensie van Good Work"
-date = "2026-01-05"
+date = "2026-01-15"
 description = "Over de gebeurtenissen bij de start van 2026."
 tags = [
     "uitoefening",
